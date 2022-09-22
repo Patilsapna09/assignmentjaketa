@@ -1,0 +1,117 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: hwb(0 73% 22% / 0.792);
+}
+
+.jaketalogin
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.child1
+{
+    margin: 20px;
+    width: 600px;
+}
+
+.child2
+{
+    margin: 20px;
+    width: 600px;
+    background-color: white;
+    width: 400px;
+    border-radius: 7px;
+    padding: 10px;
+    padding-bottom: 25px;
+}
+
+.child2 form
+{
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items;
+}
+
+.form-input
+{
+    width: 100%;
+}
+
+.form-input input,.form-input a
+{
+    width: 100%;
+}
+
+.form-input input
+{
+    padding: 15px;
+    border: lightgrey solid 1px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+
+}
+
+.form-input input: :focus
+{
+    outline: 1px solid blue;
+}
+
+.form-input input:focus::placeholder
+{
+    color: rgba(98,100,98,0.459);
+}
+
+.form-input input[type="submit"]
+{
+    background-color: rgba(37,37,202,0.774);
+    color: white;
+    font-size: 20px;
+    outline: none;
+}
+
+hr
+{
+    background-color: black;
+    margin-bottom: 40px;
+}
+
+.form-input a
+{
+    margin: 2px 100px;
+    color: blue;
+    text-decoration: none;
+}
+/*
+.fb-btn
+{
+    background: rgb(37,160,37);
+    padding: 14px 20px;
+    color: white!important;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 14px;
+}*/
+
+.child h1
+{
+    font-size: 25px;
+    color: rgb(1, 1, 14);
+}
+
+.child1 p
+{
+    font-size: 20px;
+    margin-top: -57px;
+}
+
+
+
+
